@@ -1,0 +1,12 @@
+name: Shinyapp
+title: Shinyapp
+username:
+account: abhijeetkmohite
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2531981
+bundleId: 3346930
+url: https://abhijeetkmohite.shinyapps.io/Shinyapp/
+when: 1593757251.43643
+asMultiple: FALSE
+asStatic: FALSE
