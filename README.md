@@ -10,3 +10,8 @@ To view the app click on the link below
 https://abhijeetkmohite.shinyapps.io/Shinyapp/
 
 This is hosted on the shinyapps server
+
+TO view the presentation click on the link below
+https://rpubs.com/abhijeetkmohite/ReproduciblePitch
+
+This is hosted on rpubs
