@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/634978/190728b0bf7f4aa496ee64370f5c9955
+bundleId: https://api.rpubs.com/api/v1/document/634978/190728b0bf7f4aa496ee64370f5c9955
+url: http://rpubs.com/abhijeetkmohite/634978
+when: 1593760321.69135

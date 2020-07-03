@@ -1,0 +1,58 @@
+---
+title: "Reproducible Pitch Presentation"
+author: "Abhijeet Mohite"
+date: "03/07/2020"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Price prdeictor for diamonds
+
+This is a price predictor for diamonds.It uses various inputs from the user to predict the price of diamonds. 
+
+
+This is the link for the shiny app
+https://abhijeetkmohite.shinyapps.io/Shinyapp/
+
+This is the link for the Reproducible pitch
+https://rpubs.com/abhijeetkmohite/ReproduciblePitch
+
+
+## Inputs used in the app
+
+- Carrets
+- Cut
+- Colour
+- Clarity
+
+Based on the above inputs the price of the diamond is predicted.
+
+## This is the code for the diamonds dataset taken in the analysis
+
+```{r, echo = TRUE}
+library(ggplot2)
+library(dplyr)
+head(diamonds)
+diam <- diamonds[,c(1:4,7)]
+
+```
+
+## This is the code for one of the plots used in the analysis
+
+```{r,echo=TRUE}
+fair_diamonds <- diamonds %>%
+  filter(cut == "Fair")
+ggplot(data = fair_diamonds, aes(x = price, y = carat)) +
+  geom_point()
+ggplot(data = fair_diamonds, aes(x = price, y = carat)) +
+  geom_point(position = "jitter")
+
+```
+
+## Thank You
+Thank You for giving your time in seeing my presentation
